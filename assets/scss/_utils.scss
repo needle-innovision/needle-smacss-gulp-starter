@@ -1,0 +1,24 @@
+// Mixin to rotate the div to a particular angle
+@mixin rotate-elem($angle){
+  -webkit-transform: rotate($angle);
+  -moz-transform: rotate($angle);
+  -o-transform: rotate($angle);
+  -ms-transform: rotate($angle);
+  transform: rotate($angle);
+}
+
+
+/** Border shadow all sides **/
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+/** Border radius all sides **/
+@mixin border-radius($radius: 2px) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "gulp-starter",
+  "authors": [
+    "sandeepsuvit <sandeepsuvit@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.6.3",
+    "awesome-bootstrap-checkbox": "^0.3.7",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
