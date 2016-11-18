@@ -70,12 +70,12 @@ gulp.task('css', function() {
  * @param  {[type]} function( [description]
  * @return {[type]}           [description]
  */
-gulp.task('icons', function() { 
+gulp.task('icons', function() {
     return gulp.src([
       './bower_components/bootstrap-sass/assets/fonts/bootstrap/**.*',
       './bower_components/font-awesome/fonts/**.*'
-    ]) 
-    .pipe(gulp.dest('build/public/fonts')); 
+    ])
+    .pipe(gulp.dest('build/public/fonts'));
 });
 
 /**
@@ -85,11 +85,11 @@ gulp.task('icons', function() { 
  * @param  {[type]} function( [description]
  * @return {[type]}           [description]
  */
-gulp.task('images', function() { 
+gulp.task('images', function() {
     return gulp.src([
       './assets/images/**.*'
-    ]) 
-    .pipe(gulp.dest('build/public/images')); 
+    ])
+    .pipe(gulp.dest('build/public/images'));
 });
 
 
